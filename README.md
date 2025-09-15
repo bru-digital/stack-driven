@@ -1,4 +1,4 @@
-# The Stack-Driven Agentic Backlog Framework
+# The Stack-Driven Agentic Backlog Framework (ABF)
 *A 13‑step, AI‑native playbook to generate a complete, tailored software backlog — as code.*
 
 > **License:** This repository is licensed under a **single license: Apache License 2.0**.  
@@ -11,9 +11,9 @@ ABF turns your delivery method into a **runnable, inspectable workflow**. Each o
 - Modular prompts (planner → researcher → synthesizer → critic)
 - Example outputs and acceptance criteria
 - Stack profiles and sub‑techstacks (e.g., DBMS variations)
-- Minimal tests and CI hooks to keep results consistent
+- Minimal tests and CI hooks to keep results consistents
 
-It’s designed for **human readers** and **AI agents** (ChatGPT, Claude, Gemini, etc.). Use it as a public showcase and a repeatable engine you tailor for each client.
+It’s designed for **human readers** and **AI agents** (ChatGPT, Claude, Gemini, etc.). 
 
 ---
 
@@ -27,8 +27,6 @@ It’s designed for **human readers** and **AI agents** (ChatGPT, Claude, Gemini
 - [Client overlays & privacy](#client-overlays--privacy)
 - [Contributing](#contributing)
 - [Roadmap](#roadmap)
-- [License](#license)
-- [FAQ](#faq)
 
 ---
 
@@ -164,32 +162,6 @@ Each aspect’s `aspect.yaml` defines **inputs**, **outputs**, **dependencies**,
 - Built‑in diagram generation (Mermaid/PlantUML).  
 - Stronger evals and red‑team prompts per aspect.  
 - Interactive docs site with runnable snippets.
-
----
-
-## License
-**Apache License 2.0** — a single, permissive license that covers code **and** documentation, includes a patent grant, and requires preservation of notices. See `LICENSE` for details.
-
-> If you prefer to keep client deliverables proprietary, generate them into a separate private repo and keep this framework open.
-
----
-
-## FAQ
-
-**Why one license?**  
-Simplicity. Apache‑2.0 cleanly covers both code and docs, encourages adoption, and protects contributors with a patent grant.
-
-**Can I use this commercially?**  
-Yes. Apache‑2.0 allows commercial use. Keep the license and notice files intact.
-
-**Do I need to attribute you?**  
-Apache‑2.0 requires preservation of notices; attribution beyond that is appreciated but not required.
-
-**How do I stop AI output drift?**  
-Each aspect includes acceptance criteria, DoR/DoD checklists, and optional small “golden” tests. Changes to prompts should update the tests.
-
-**What about trademarks and brand assets?**  
-Any logos or trademarks are property of their respective owners and are **not** licensed by Apache‑2.0.
 
 ---
 
