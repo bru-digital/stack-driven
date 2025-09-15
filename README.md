@@ -151,14 +151,6 @@ Each aspect’s `aspect.yaml` defines **inputs**, **outputs**, **dependencies**,
 
 ---
 
-## Client overlays & privacy
-Keep this repo **public** as your method & lead magnet. For client work:
-- Create a **private overlay repo** (client specifics, credentials, internal links).  
-- Reference this framework as a Git submodule or pin to a release tag.  
-- Never commit secrets. Prompts and tools warn against pasting sensitive data.
-
----
-
 ## Contributing
 - PRs welcome for new **stack profiles**, **sub‑techstacks**, or **aspect variants**.  
 - Please read `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` before submitting.  
